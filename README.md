@@ -62,3 +62,21 @@ Transferência de estado representacional
     é importante sempre ver o que a ide comunica, pode-se assim obter o mesmo resultado/ solução problema com outra lógica 
 
     ![uau](image-1.png)
+
+
+    # THIS AND ESCOPO 
+ 
+  This no js faz referencia: 
+  node -> module.exports
+  web -> window
+
+ ## Escopo
+ -> Global: quando começamos a escrever nossa aplicação
+      faz referência ao objeto global = objeto window 
+      no navegador ou no node.js
+-> Local: dentro de funções 
+
+
+⚠️ Diferença em funções normais vs arrow functions
+- Função normal → this depende de quem chama.
+- Arrow function → this é léxico (pega do escopo onde foi criada).
