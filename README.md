@@ -83,5 +83,20 @@ Transferência de estado representacional
 
 
 # try and catch 
-para tratamento de erros 
+para tratamento de erros  - usando em servidor, api ou banco de dados ( apenas realmente para tratamento de erros)
 ![catch](image-2.png)
+## API ASYNC E AWAIT
+![A](image-3.png)
+function pegarDados() {
+  return new Promise(resolve => {
+    setTimeout(() => resolve("Dados recebidos"), 2000);
+  });
+}
+
+async function main() {
+  console.log("Buscando...");
+  const dados = await pegarDados(); // espera 2 segundos
+  console.log(dados);
+}
+
+main();
