@@ -1,0 +1,13 @@
+{
+    "nome": "Rodolfo",
+    "idade": 31,
+    "filhos":null,
+    "casado":true,
+    "empresas": {
+        "devclub":{
+            "fundada":2021,
+            "colab":40
+        }
+    } 
+}
+
