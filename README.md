@@ -80,3 +80,8 @@ Transferência de estado representacional
 ⚠️ Diferença em funções normais vs arrow functions
 - Função normal → this depende de quem chama.
 - Arrow function → this é léxico (pega do escopo onde foi criada).
+
+
+# try and catch 
+para tratamento de erros 
+![catch](image-2.png)
