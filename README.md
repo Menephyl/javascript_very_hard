@@ -57,3 +57,8 @@ Transferência de estado representacional
     - sem estado ( no state ) - requisições feitas de modo independente, cada requisição executa uma ação 
     - respostas auto-descritiva
     -> quando fala-se que utilizou rest api - significa uzar uma api para acessar aplicações back end seguindo os padrões rest 
+
+    ![verificar](image.png)
+    é importante sempre ver o que a ide comunica, pode-se assim obter o mesmo resultado/ solução problema com outra lógica 
+
+    ![uau](image-1.png)
